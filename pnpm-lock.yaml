@@ -8,6 +8,12 @@ importers:
 
   .:
     devDependencies:
+      '@oas-isui/theme':
+        specifier: workspace:*
+        version: link:packages/theme
+      '@oas-isui/ui':
+        specifier: workspace:*
+        version: link:packages/ui
       '@types/node':
         specifier: ^26.1.2
         version: 26.1.2
