@@ -6,6 +6,8 @@ export default defineConfig({
     alias: {
       '@oas-isui/core': resolve(__dirname, 'packages/core/src'),
       '@oas-isui/theme': resolve(__dirname, 'packages/theme/src'),
+      '@oas-isui/ui': resolve(__dirname, 'packages/ui/src'),
+      '@oas-isui/icons': resolve(__dirname, 'packages/icons/src'),
     },
   },
   test: {
