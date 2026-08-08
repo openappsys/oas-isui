@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import './basic/button/index.js'
 import './basic/icon/index.js'
 import './basic/tag/index.js'
