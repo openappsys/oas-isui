@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OASTimeline } from './oas-timeline.js'
 import { OASTimelineItem } from './oas-timeline-item.js'
 

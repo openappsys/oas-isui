@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OASFloatButton } from './oas-float-button.js'
 
 if (!customElements.get('oas-float-button')) {

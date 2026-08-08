@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OASBreadcrumb, type BreadcrumbItem } from './oas-breadcrumb.js'
 
 if (!customElements.get('oas-breadcrumb')) {

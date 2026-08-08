@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OASAnchor, type AnchorItem } from './oas-anchor.js'
 
 if (!customElements.get('oas-anchor')) {

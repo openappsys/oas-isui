@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OASTag } from './oas-tag.js'
 
 if (!customElements.get('oas-tag')) {

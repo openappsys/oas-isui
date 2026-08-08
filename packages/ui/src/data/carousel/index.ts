@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OASCarousel } from './oas-carousel.js'
 
 if (!customElements.get('oas-carousel')) {

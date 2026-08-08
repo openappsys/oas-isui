@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OASMessage, type MessageType } from './oas-message.js'
 import { message, destroyAll, type MessageHandle } from './message.js'
 

@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OASPopconfirm } from './oas-popconfirm.js'
 
 if (!customElements.get('oas-popconfirm')) {

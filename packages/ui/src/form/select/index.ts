@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OASSelect } from './oas-select.js'
 
 if (!customElements.get('oas-select')) {

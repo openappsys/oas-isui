@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OAStour, type TourStep } from './oas-tour.js'
 
 if (!customElements.get('oas-tour')) {

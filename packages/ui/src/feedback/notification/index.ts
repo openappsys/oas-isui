@@ -1,3 +1,4 @@
+import '@oas-isui/i18n'
 import { OASNotification, type NotificationType } from './oas-notification.js'
 import { notification, destroyAll, type NotificationOptions } from './notification.js'
 
