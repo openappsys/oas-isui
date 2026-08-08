@@ -9,6 +9,7 @@
     "preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@oas-isui/i18n": "workspace:*",
     "@oas-isui/ui": "workspace:*",
     "@oas-isui/theme": "workspace:*",
     "vitepress": "^1.6.3"
