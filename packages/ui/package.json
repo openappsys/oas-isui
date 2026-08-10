@@ -39,5 +39,8 @@
     "@oas-isui/core": "workspace:*",
     "@oas-isui/i18n": "workspace:*",
     "@oas-isui/icons": "workspace:*"
+  },
+  "devDependencies": {
+    "@oas-isui/ssr": "workspace:*"
   }
 }
