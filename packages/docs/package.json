@@ -12,6 +12,7 @@
     "@oas-isui/i18n": "workspace:*",
     "@oas-isui/ui": "workspace:*",
     "@oas-isui/theme": "workspace:*",
+    "shiki": "^2.5.0",
     "vitepress": "^1.6.3"
   }
 }
