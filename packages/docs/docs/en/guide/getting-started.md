@@ -4,9 +4,7 @@
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/@oas-isui/theme@1/index.css" />
-<script type="module">
-  import '@oas-isui/ui'
-</script>
+<script src="https://unpkg.com/@oas-isui/ui@1/dist/cdn.js"></script>
 <oas-button type="primary">Hello OAS-ISUI</oas-button>
 ```
 

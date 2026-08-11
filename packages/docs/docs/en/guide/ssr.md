@@ -218,9 +218,7 @@ JS"); interactivity is still handled by the browser runtime, so the
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/@oas-isui/theme@1/index.css" />
-<script type="module">
-  import '@oas-isui/ui'
-</script>
+<script src="https://unpkg.com/@oas-isui/ui@1/dist/cdn.js"></script>
 ```
 
 ## Testing
