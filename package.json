@@ -5,7 +5,8 @@
   "type": "module",
   "packageManager": "pnpm@11.20.0",
   "scripts": {
-    "dev": "pnpm --filter @oas-isui/docs dev",
+    "predev": "pnpm --filter @oas-isui/ui build",
+    "dev": "pnpm --parallel --filter @oas-isui/core --filter @oas-isui/i18n --filter @oas-isui/icons --filter @oas-isui/ui --filter @oas-isui/docs dev",
     "build": "pnpm -r build",
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p tsconfig.json",
