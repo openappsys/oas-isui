@@ -39,5 +39,9 @@
     "@nuxt/schema": "^3.21.11",
     "@oas-isui/ssr": "workspace:*",
     "@oas-isui/theme": "workspace:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openappsys/oas-isui.git"
   }
 }
