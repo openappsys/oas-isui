@@ -9,6 +9,7 @@ export default defineConfig({
       '@oas-isui/ui': resolve(__dirname, 'packages/ui/src'),
       '@oas-isui/icons': resolve(__dirname, 'packages/icons/src'),
       '@oas-isui/i18n': resolve(__dirname, 'packages/i18n/src'),
+      '@oas-isui/ssr': resolve(__dirname, 'packages/ssr/src'),
     },
   },
   test: {
