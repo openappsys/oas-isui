@@ -1,3 +1,5 @@
+<img src="/favicon.svg" alt="Oasis UI" width="64" height="64" />
+
 # OAS-ISUI
 
 A framework-agnostic Web Components UI library.
