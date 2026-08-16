@@ -1,16 +1,20 @@
-<img src="/favicon.svg" alt="Oasis UI" width="64" height="64" />
+---
+layout: home
+title: OAS-ISUI — Framework-agnostic Web Components UI library
+description: One set of components for every host — React, Vue, Svelte or plain HTML. Full TypeScript types, tree-shakable, light & dark themes, SSR + DSD.
 
-# OAS-ISUI
-
-A framework-agnostic Web Components UI library.
-
-- Built on native Web Components (Custom Elements + Shadow DOM)
-- Works directly with React / Vue / Svelte / plain HTML
-- Full TypeScript types, tree-shakable, light/dark dual themes
-
-```html
-<oas-button type="primary">Get Started</oas-button>
-```
+hero:
+  name: OAS-ISUI
+  text: A framework-agnostic Web Components UI library
+  tagline: One set of components for every host — React, Vue, Svelte or plain HTML. Full TypeScript types · tree-shakable · light & dark themes · SSR + DSD.
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /en/guide/getting-started
+    - theme: alt
+      text: GitHub
+      link: https://github.com/openappsys/oas-isui
+---
 
 ## Installation
 
@@ -21,6 +25,12 @@ pnpm add @oas-isui/ui @oas-isui/theme
 ```ts
 import '@oas-isui/theme'
 import '@oas-isui/ui'
+```
+
+Then just write HTML:
+
+```html
+<oas-button type="primary">Get Started</oas-button>
 ```
 
 > All component reference pages are available in English under
