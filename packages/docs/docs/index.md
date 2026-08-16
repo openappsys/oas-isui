@@ -15,20 +15,3 @@ hero:
       text: GitHub
       link: https://github.com/openappsys/oas-isui
 ---
-
-## 安装
-
-```bash
-pnpm add @oas-isui/ui @oas-isui/theme
-```
-
-```ts
-import '@oas-isui/theme'
-import '@oas-isui/ui'
-```
-
-然后直接写 HTML：
-
-```html
-<oas-button type="primary">开始使用</oas-button>
-```

@@ -15,24 +15,3 @@ hero:
       text: GitHub
       link: https://github.com/openappsys/oas-isui
 ---
-
-## Installation
-
-```bash
-pnpm add @oas-isui/ui @oas-isui/theme
-```
-
-```ts
-import '@oas-isui/theme'
-import '@oas-isui/ui'
-```
-
-Then just write HTML:
-
-```html
-<oas-button type="primary">Get Started</oas-button>
-```
-
-> All component reference pages are available in English under
-> `/en/components/*`. Demo snippets inside the pages keep their original
-> Chinese example text, since code examples are shared with the Chinese docs.
