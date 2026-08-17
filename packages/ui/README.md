@@ -33,4 +33,4 @@ import '@oas-isui/ui/basic/button'
 
 ## 文档
 
-完整组件文档与 demo：[文档站](https://oas-isui.dev)（建设中）。
+完整组件文档与 demo：[文档站](https://oasisui.dev)。
