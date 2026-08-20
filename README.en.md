@@ -22,8 +22,8 @@ Full TypeScript types · tree-shakable · light/dark themes · SSR + DSD · fram
 ### CDN (zero build)
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@oas-isui/theme@1/index.css" />
-<script src="https://unpkg.com/@oas-isui/ui@1/dist/cdn.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@oas-isui/theme@2/index.css" />
+<script src="https://unpkg.com/@oas-isui/ui@2/dist/cdn.js"></script>
 
 <oas-button type="primary">Primary</oas-button>
 <oas-input placeholder="Type here"></oas-input>
@@ -33,7 +33,7 @@ On-demand (ESM, per-component tree-shakable):
 
 ```html
 <script type="module">
-  import 'https://esm.sh/@oas-isui/ui@1/basic/button'
+  import 'https://esm.sh/@oas-isui/ui@2/basic/button'
 </script>
 ```
 

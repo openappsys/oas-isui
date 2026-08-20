@@ -1,6 +1,18 @@
 # @oas-isui/i18n
 
-OAS-ISUI 国际化包 —— 框架无关的 locale registry（`setLocale` / `registerLocale` / `t`），内置 zh-CN / en 语言包，tree-shakable。
+[中文](#中文) | [English](#english)
+
+## 中文
+
+OAS-ISUI 国际化包 —— 框架无关的 locale registry：`setLocale` / `registerLocale` / `t` 接口。内置 zh-CN / en 语言包，tree-shakable。
+
+### 安装
+
+```bash
+pnpm add @oas-isui/i18n
+```
+
+### 使用
 
 ```ts
 import zhCN from '@oas-isui/i18n/zh-CN'
@@ -10,4 +22,40 @@ registerLocale(zhCN)
 setLocale('zh-CN')
 ```
 
-组件内置文案（空态、确认按钮、校验消息等）随 locale 全局切换；`oas-config-provider` 支持就近注入。
+组件内置文案（确认按钮、校验消息等）随 locale 全局切换。`oas-config-provider` 支持就近注入，无需全局设置。
+
+### 相关包
+
+| 包 | 作用 |
+| --- | --- |
+| `@oas-isui/ui` | 组件库主包（消费本包文案） |
+
+[中文](#中文) | [English](#english)
+
+## English
+
+`@oas-isui/i18n` — the internationalization package of OAS-ISUI. A framework-agnostic locale registry with `setLocale` / `registerLocale` / `t`. Built-in zh-CN and en locale packs, tree-shakable.
+
+### Install
+
+```bash
+pnpm add @oas-isui/i18n
+```
+
+### Usage
+
+```ts
+import zhCN from '@oas-isui/i18n/zh-CN'
+import { registerLocale, setLocale } from '@oas-isui/i18n'
+
+registerLocale(zhCN)
+setLocale('zh-CN')
+```
+
+Built-in component texts (confirm buttons, validation messages, etc.) switch globally with the locale. `oas-config-provider` supports local injection without global setup.
+
+### Related packages
+
+| Package | Purpose |
+| --- | --- |
+| `@oas-isui/ui` | Main UI library (consumes texts from this package) |
