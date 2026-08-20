@@ -1,8 +1,6 @@
 # @oas-isui/ui
 
-[中文](#中文) | [English](#english)
-
-## 中文
+## <a id="zh"></a> 中文 | [English](#en)
 
 OAS-ISUI 组件库主包 —— 框架无关的 Web Components UI 组件库（Custom Elements + Shadow DOM）。
 
@@ -68,9 +66,7 @@ import '@oas-isui/ui/basic/button'
 
 完整组件文档与 demo：[文档站](https://oasisui.dev) · [GitHub](https://github.com/openappsys/oas-isui)
 
-[中文](#中文) | [English](#english)
-
-## English
+## <a id="en"></a> [中文](#zh) | English
 
 `@oas-isui/ui` — the main package of OAS-ISUI, a framework-agnostic Web Components UI library (Custom Elements + Shadow DOM).
 
