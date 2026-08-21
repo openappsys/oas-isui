@@ -2,6 +2,15 @@
   "name": "@oas-isui/theme",
   "version": "2.1.4",
   "description": "OAS-ISUI 主题 token（light/dark/high-contrast 语义 CSS 变量）",
+  "keywords": [
+    "theme",
+    "design-tokens",
+    "css-variables",
+    "dark-mode",
+    "dark-theme",
+    "high-contrast",
+    "oas-isui"
+  ],
   "license": "MIT OR Apache-2.0",
   "repository": {
     "type": "git",

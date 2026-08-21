@@ -2,6 +2,17 @@
   "name": "@oas-isui/next",
   "version": "2.1.4",
   "description": "OAS-ISUI Next.js（App Router）集成——RSC OasComponent 服务端产 DSD 快照 + OasRegistry 客户端注册引导",
+  "keywords": [
+    "nextjs",
+    "next",
+    "react",
+    "app-router",
+    "rsc",
+    "react-server-components",
+    "ssr",
+    "web-components",
+    "oas-isui"
+  ],
   "license": "MIT OR Apache-2.0",
   "type": "module",
   "publishConfig": {
