@@ -1,6 +1,6 @@
 {
   "name": "@oas-isui/ui",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "OAS-ISUI 框架无关 Web Components UI 组件库",
   "keywords": [
     "web-components",
